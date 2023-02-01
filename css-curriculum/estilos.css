@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 25px;
+    
+}
+.main {
+    width: 600px;
+    margin: 40px auto;
+}
+
+.datosPersonales {
+    background: #cccccc;
+    border-radius: 25px;
+    display: flex;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    overflow: hidden;
+    
+}
+.datosPersonales img {
+    margin-right: 30px;
+    width: 50%;
+}
+
+.referencias div img {
+   
+    margin-top: 35px;
+    width: 50%;
+}
+
+.referencias div a  {
+    color:blue;
+    font-weight: 700;
+}
+
+.referencias div a  { 
+    border-bottom: darkblue 10px
+   
+}
+.referencias div a:hover  {
+    color:lightblue;
+}
+
+.referencias div a:active  {
+    color:blue;
+}
+
+.referencias div h3   {
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+h1 {text-transform: uppercase;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    
+}
